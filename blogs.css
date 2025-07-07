@@ -1,0 +1,118 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: #333;
+}
+
+header {
+  background-color: #fdb9aa;
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.logo .garra {
+  font-size: 3rem;
+}
+
+.logo .nombre {
+  font-size: 2.5rem;
+  color: #8b5e3c;
+  font-weight: bold;
+}
+
+nav {
+  display: flex;
+  justify-content: justify;
+  gap: 20px;
+  font-size: 24px;
+  font-weight: normal;
+  color: #5c4b4b;
+  margin: 1rem 0;
+}
+
+nav span {
+  font-weight: bold;
+}
+
+nav > div:not(:last-child)::after {
+  content: '|';
+  margin-left: 20px;
+  margin-right: 20px;
+  color: #5c4b4b;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  background-color: #f7f1fc;
+  padding: 20px;
+}
+
+.blog-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  background: linear-gradient(to right, #ffe0c2 50%, #c8f3ff 50%);
+  max-width: 1000px;
+  width: 100%;
+  padding: 20px;
+  position: relative;
+  padding-bottom: 220px;
+}
+
+.blog-container h1 {
+  grid-column: span 2;
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.blog-container h2 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.blog-container p {
+  margin: 5px 0;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.blog-container img {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 300px;
+  z-index: 0;
+}
+
+footer {
+  background-color: #fdb9aa;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  font-size: 14px;
+  flex-wrap: wrap;
+}
+
+footer div {
+  flex: 1;
+  min-width: 200px;
+  margin: 10px;
+}
+
+footer div p {
+  margin: 5px 0;
+}

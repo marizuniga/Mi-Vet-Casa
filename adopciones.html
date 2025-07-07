@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="adopciones.css">
+</head>
+<body>
+      <header>
+    <div class="logo">
+      <div class="garra">🐾</div>
+      <div class="nombre">MiVetCasa</div>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="../inicio.html">Inicio</a></li>
+        <li><a href="../Como funciona/comofunciona.html">¿Cómo funciona?</a></li>
+        <li><a href="../Productos/productos.html">Productos</a></li>
+        <li><a href="../Blogs/blogs.html">Blog</a></li>
+        <li><a class="active" href="../Adopciones/adopciones.html">Adopciones</a></li>
+      </ul>
+    </nav>
+  </header>
+
+<div class="filtros">
+  <select id="filtro-tipo">
+    <option value="todos">Todos</option>
+    <option value="gato">Gatos</option>
+    <option value="perro">Perros</option>
+  </select>
+
+  <select id="filtro-sexo">
+    <option value="todos">Sexo</option>
+    <option value="macho">Macho</option>
+    <option value="hembra">Hembra</option>
+  </select>
+
+  <select id="filtro-tamaño">
+    <option value="todos">Tamaño</option>
+    <option value="pequeño">Pequeño</option>
+    <option value="mediano">Mediano</option>
+    <option value="grande">Grande</option>
+  </select>
+
+  <select id="filtro-edad">
+    <option value="todos">Edad</option>
+    <option value="cachorro">Cachorro</option>
+    <option value="adulto">Adulto</option>
+    <option value="senior">Senior</option>
+  </select>
+</div>
+
+<h2 style="text-align:center;">Gatos en Adopción</h2> 
+<div id="seccion-gatos" class="contenedor-animales">
+  <div class="animal-card" data-tipo="gato" data-sexo="macho" data-tamaño="pequeño" data-edad="cachorro">
+    <img src="../Imágenes/gato1.jpg" alt="Gato 1">
+    <p>Gato Calico</p>
+    <button>Adoptar</button>
+  </div>
+  <div class="animal-card" data-tipo="gato" data-sexo="hembra" data-tamaño="mediano" data-edad="adulto">
+    <img src="../Imágenes/gato2.jpg" alt="Gato 2">
+    <p>Gato Siamés</p>
+    <button>Adoptar</button>
+  </div>
+  <div class="animal-card" data-tipo="gato" data-sexo="macho" data-tamaño="grande" data-edad="senior">
+    <img src="../Imágenes/gato3.jpg" alt="Gato 3">
+    <p>Gato Atigrado</p>
+    <button>Adoptar</button>
+  </div>
+</div>
+
+<h2 style="text-align:center;">Perros en Adopción</h2>
+<div id="seccion-perros" class="contenedor-animales">
+  <div class="animal-card" data-tipo="perro" data-sexo="hembra" data-tamaño="grande" data-edad="adulto">
+    <img src="../Imágenes/perro1.jpg" alt="Perro 1">
+    <p>Border Collie</p>
+    <button>Adoptar</button>
+  </div>
+  <div class="animal-card" data-tipo="perro" data-sexo="macho" data-tamaño="mediano" data-edad="cachorro">
+    <img src="../Imágenes/perro3.jpg" alt="Perro 2">
+    <p>Rottweiler</p>
+    <button>Adoptar</button>
+  </div>
+  <div class="animal-card" data-tipo="perro" data-sexo="macho" data-tamaño="pequeño" data-edad="senior">
+    <img src="../Imágenes/perro4.jpg" alt="Perro 3">
+    <p>Corgi Galés</p>
+    <button>Adoptar</button>
+  </div>
+</div>
+
+
+<div class="adopcion-info-container">
+  <div class="adopcion-columna">
+    <h3>¿Cómo puedo adoptar?</h3>
+    <p>
+      Al hacer click en adoptar, debe llenar un formulario con sus datos personales, Nombre, Correo electrónico o teléfono e Información sobre su casa: si tiene espacio u otras mascotas. Cuando se acepta la solicitud se enviará o llamará para notificarle la gran noticia :D
+      <br><br>
+      Al final venga al local a firmar el acuerdo para recibir a su nuevo integrante de la familia !! 💗
+    </p>
+  </div>
+
+  <div class="adopcion-imagen">
+    <img src="../Imágenes/adopciones.jpg" alt="adopciones" />
+  </div>
+
+  <div class="adopcion-columna">
+    <h3>¿Qué se necesita para adoptar?</h3>
+    <p>
+      Para adoptar, necesitas ser mayor de edad y tener la capacidad económica para cubrir sus gastos. Además, es fundamental comprometerte con su educación y bienestar, asegurando que todos los miembros de tu hogar estén de acuerdo con la adopción. También deberás firmar un contrato de adopción y, en algunos casos, recibir visitas o llamadas telefónicas para verificar el estado del animal.
+    </p>
+  </div>
+</div>
+
+
+ <footer>
+    <div class="footer-info">
+      <div>
+        <p>Atención al cliente</p>
+        <p>MiVetCasa@gmail.com</p>
+        <p>987 654 321</p>
+      </div>
+      <div>
+        <p>MiVetCasa es una consulta veterinaria online que ofrece videollamadas con veterinarios, productos, adopciones, entre otros desde tu móvil, tablet u ordenador.</p>
+        <p>Lima, Perú</p>
+      </div>
+      <div>
+        <p>Términos y condiciones</p>
+        <p>Política de privacidad</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,221 @@
+bbody{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+}
+
+header {
+  background-color: #006691;
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.logo .garra {
+  font-size: 3rem;
+}
+
+.logo .nombre {
+  font-size: 2.8rem;
+  color: black;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 2rem;
+}
+
+nav li {
+  display: inline;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+  padding: 0.5rem 0;
+  border-right: 2px solid black;
+  padding-right: 1rem;
+}
+
+nav li:last-child a {
+  border-right: none;
+}
+
+nav a.active {
+  color: black;
+}
+
+main.adopciones {
+  padding: 2rem;
+  background-color: #94e7ff;
+}
+
+.mensaje {
+  background-color: #40cfff;
+  color: #222;
+  padding: 1rem;
+  margin: 2rem auto;
+  border-radius: 2rem;
+  max-width: 700px;
+  text-align: center;
+  font-size: 1rem;
+}
+
+footer {
+  background-color: #2499c7;
+  padding: 2rem;
+  margin-top: 3rem;
+}
+
+.footer-info {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.footer-info div {
+  flex: 1;
+  padding: 1rem;
+  min-width: 200px;
+}
+
+.adopcion-seccion {
+  background-color: #a8eaff;
+  padding: 30px;
+  font-family: sans-serif;
+}
+
+.contenedor-animales {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.animal-card {
+  background-color: #e0f7fa;
+  border-radius: 12px;
+  padding: 15px;
+  text-align: center;
+  width: 160px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+}
+
+.animal-card:hover {
+  transform: scale(1.05);
+}
+
+.animal-card img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.animal-card p {
+  margin: 5px 0;
+  font-weight: bold;
+}
+
+.animal-card button {
+  background-color: #b2ebf2;
+  border: none;
+  padding: 6px 15px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+
+.adopcion-info-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto 40px auto;
+  text-align: center;
+}
+
+.adopcion-columna {
+  max-width: 300px;
+  flex: 1 1 280px;
+}
+
+.adopcion-columna h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.adopcion-columna p {
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.adopcion-imagen {
+  flex: 1 1 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.adopcion-imagen img {
+  max-width: 160px;
+  height: auto;
+}
+.adopcion-columna {
+  max-width: 300px;
+  flex: 1 1 280px;
+  background-color: #ccf6e5;
+  border: 2px solid #246770;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+.filtros {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin: 30px auto;
+  max-width: 800px;
+}
+
+.filtros select {
+  padding: 10px 15px;
+  font-size: 15px;
+  border: 2px solid #01ba1d;
+  border-radius: 8px;
+  background-color: rgb(156, 244, 129);
+  color: #333;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.filtros select:hover {
+  background-color: #e0f7fa;
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}

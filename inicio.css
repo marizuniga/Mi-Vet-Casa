@@ -1,0 +1,227 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: #333;
+  background-image: url("Imágenes/FONDO1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #fcd259;
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.logo .garra {
+  font-size: 3rem;
+}
+
+.logo .nombre {
+  font-size: 2.5rem;
+  color: #8b5e3c;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 2rem;
+}
+
+nav li {
+  display: inline;
+}
+
+nav a {
+  text-decoration: none;
+  color: #8b5e3c;
+  font-size: 1.2rem;
+  padding: 0.5rem 0;
+  border-right: 2px solid #8b5e3c;
+  padding-right: 1rem;
+}
+
+nav li:last-child a {
+  border-right: none;
+}
+
+
+main {
+  padding: 2rem;
+  text-align: center;
+}
+
+.reserva h2 {
+  font-size: 2rem;
+  color: #14891a;
+  margin-bottom: 1rem;
+  font-size: 40px;
+}
+
+.reserva p {
+  max-width: 700px;
+  margin: auto;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+  font-size: 20px;
+  text-align: center;
+}
+
+.botones button {
+  background-color: #1f928c;
+  border: none;
+  padding: 1rem 2rem;
+  margin: 0 1rem;
+  font-size: 1rem;
+  border-radius: 30px;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.testimonios {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.tarjeta {
+  background-color: white;
+  border: 1px solid #036d08;
+  padding: 1rem;
+  border-radius: 8px;
+  width: 250px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+   font-size: 20px;
+   text-align: center;
+}
+
+footer {
+  background-color: #fcd259;
+  padding: 2rem;
+  margin-top: 3rem;
+}
+
+.footer-info {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.footer-info div {
+  flex: 1;
+  padding: 1rem;
+  min-width: 200px;
+  font-size: 20px;
+}
+
+.subtitulo {
+  margin: 30px 0 15px;
+  text-align: center;
+}
+
+.subtitulo h2 {
+  font-size: 1.6rem;
+  color: #2e7d32;
+  font-weight: bold;
+  font-size: 45px;
+}
+
+.lista-ofrecemos,
+.lista-para-ti {
+  max-width: 700px;
+  margin: 0 auto 30px;
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+    font-size: 45px;
+}
+
+.lista-ofrecemos div,
+.lista-para-ti div {
+  font-size: 1rem;
+  color: #595858;
+  text-align: left;
+  background-color: #aa99ff;
+  padding: 10px 15px;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    font-size: 25px;
+}
+
+.mensaje-con-imagen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  background-color: #beff74;
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 1000px;
+  margin: 30px auto;
+  flex-wrap: wrap; 
+}
+
+.mensaje-texto {
+  flex: 1;
+  min-width: 280px;
+}
+
+.mensaje-texto h2 {
+  color: #388e3c;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.mensaje-texto p {
+  font-size: 1.1rem;
+  color: #444;
+  line-height: 1.5;
+  margin-bottom: 10px;
+    font-size: 25px;
+  text-align: center;  
+}
+
+.mensaje-imagen {
+  flex: 1;
+  min-width: 250px;
+  text-align: center;
+}
+
+.mensaje-imagen img {
+  max-width: 450px;
+  border-radius: 50px;
+  border: 5px solid #e8fd24;
+}
+
+.imagenes-veterinaria {
+  display: flex;
+  justify-content: center;
+}
+
+.imagenes-veterinaria img {
+  width: 350px; 
+  height: auto;
+  border: 5px solid #ff788c;
+  border-radius: 15px;
+}
